@@ -16,6 +16,8 @@ python -m pip install -r requirements.txt
 
 如果不喜欢初始语句的话可以编辑**WIN_NEGATIVE, WIN_POSTIVE, LOSE_NEGATIVE, LOSE_POSTIVE**四个变量来修改.
 
+如果大佬们用的开心的话可以点个STAR支持一下.
+
 # 如何获得Discord的Webhook
 
 首先确保你拥有频道的管理权限.
