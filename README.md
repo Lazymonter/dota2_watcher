@@ -2,7 +2,7 @@
 
 一个用来监视队友下分的小工具, 当打完一场对局后会自动将对局详情发送到聊天工具, 目前仅支持Discord.
 
-在使用之前, 请编辑*contents.py*的*WEBHOOKS*变量以添加频道Webhook url以及*PERSON*添加player id以及昵称.
+在使用之前, 请编辑**contents.py**的**WEBHOOKS**变量以添加频道Webhook url以及**PERSON**添加player id以及昵称.
 
 需要安装requests, 使用以下命令来安装
 
