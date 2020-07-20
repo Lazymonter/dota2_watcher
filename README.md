@@ -15,3 +15,25 @@ python -m pip install -r requirements.txt
 之后使用 `python task.py` 来运行就好.
 
 如果不喜欢初始语句的话可以编辑**WIN_NEGATIVE, WIN_POSTIVE, LOSE_NEGATIVE, LOSE_POSTIVE**四个变量来修改.
+
+# 如何获得Discord的Webhook
+
+首先确保你拥有频道的管理权限.
+
+点击一个文字频道的设置按钮
+
+![](./img/discord_webhook1.jpg)
+
+选择Webhook.
+
+![](./img/discord_webhook2.jpg)
+
+点击创建Webhook后将url复制下来即可.
+
+![](./img/discord_webhook3.jpg)
+
+你会得到一个类似
+
+`https://discordapp.com/api/webhooks/734684555256135710/JRj9xEbxHJ6scZ_XchVMO6YjmpXR88LSkoblSSxQQ-CEC6X9oH7YUa_qND1kAy-vPE96`
+
+这样的URL, 将它放到contents.py内的WEBHOOKS变量内即可.
